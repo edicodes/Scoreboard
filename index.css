@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Cursed Timer ULiL', sans-serif;         
+    padding: 1rem; 
+    background-color: #191919 ;                                      
+}
+
+h3 {
+    font-family: system-ui; 
+    text-align: center; 
+    font-size: 2rem;
+    line-height: 1; 
+    margin-bottom: .5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #191919;
+    color: white; 
+    padding: 0 0 1rem; 
+}
+
+.score-count {
+    background: white;
+    color: red; 
+    text-align: center; 
+    padding: .25rem; 
+    margin-bottom: 1rem;    
+    border-radius: 10px; 
+}
+
+.score {
+    font-size: 5rem; 
+    padding: 0;
+    margin: 0; 
+    line-height: 1; 
+}
+
+button {
+    background: none; 
+    color: inherit;
+    font-family: inherit; 
+    outline: 3px solid white; 
+    border-radius: .25rem;  
+    cursor: pointer; 
+}
+
+button:hover,
+.button:focus {
+    background: white;
+    color: black; 
+}
+
+.reset-button {
+    background: #191919;
+    text-align: center;
+    color: white; 
+    padding: 0 0 1rem; 
+}
+
+.reset-button button {
+    background: red;
+    font-size: 1.25em; 
+}
+
+.reset-button button:hover,
+.reset-button button:focus {
+    background: white;
+    color: red; 
+}
